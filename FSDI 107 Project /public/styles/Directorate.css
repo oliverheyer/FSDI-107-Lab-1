@@ -1,0 +1,57 @@
+h1, h2{
+    text-align: center;
+    color: rgb(1, 84 161);
+    
+}
+h2{
+    padding-top: 10px;
+}
+.col-7{
+    border-right: 1px solid #d8d8d8;
+}
+
+label{
+    text-align: left;
+
+}
+
+#messageList{
+    list-style-type: none;
+    padding-left: 5px;
+}
+
+#messageList li{
+    margin: 10px 0px;
+    margin:5px 0px;
+    background-color: #fafafa;
+    border: 1px solid #fafafa;
+}
+
+#messageList li:hover{
+    font-weight: bold;
+    border: 1px solid rgb(1, 84 161);
+}
+
+.btn-container{
+    text-align: center;
+}
+
+.hide{
+    display: none;
+    text-align: left;
+}
+
+h6{
+    background-color: rgb(247, 247, 247);
+    border: 1px solid rgb(255, 255, 255);
+    margin-bottom: 10px;
+    border-radius: 8px;
+
+
+}
+
+h6{
+    color:#333;
+    text-align: left;
+
+}

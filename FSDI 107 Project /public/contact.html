@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tyre Exchange Post</title>
+
+    <!-- Styles -->
+    <link href="styles/bootstrap.min.css" rel="stylesheet">
+    <link href="styles/contact.css" rel="stylesheet">
+    
+</head>
+<body>
+<!-- Menu bar Start -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+                <a class="navbar-brand" href="#">Tyre</a>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+
+                      <a class="nav-item" href="/catalog">Inventory</a>
+                    </li>
+
+                    <li class="nav-item">
+                            <a class="nav-link" href="/admin">Directorate</a>
+                          </li>
+
+                          <li class="nav-item">
+                            <a class="nav-link" href="/contact">Contact</a>
+                          </li>
+                 
+
+
+ 
+                  </ul>
+                  <form class="form-inline my-2 my-lg-0">
+                    <input id="txtSearch" class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button id= "btnSearch"class="btn btn-info my-2 my-sm-0" type="button">Search</button>
+                  </form>
+                </div>
+              </nav>
+
+<!-- Menu bar End -->
+
+    <div class="container">
+
+      <br>
+     <center> <h4>What's On Your Mind</h4></center>
+    
+    
+      <hr>
+      <form>
+          <div class="form-group row">
+              <label class="offset-2 col-3 col-form-label">Name</label>
+              <div class="col-5">
+                  <input id="txtName" type="text" class="form-control">
+              </div>
+          </div>
+
+          <div class="form-group row">
+                  <label class="offset-2 col-3 col-form-label">E-mail</label>
+                  <div class="col-5">
+                      <input id="txtMail" type="text" class="form-control">
+                  </div>
+              </div>
+
+              
+
+                  
+
+                      <div class="form-group row">
+                              <label class="offset-2 col-3 col-form-label">Message</label>
+                              <div class="col-5">
+                                  <input id="txtMessage" type="text" class="form-control">
+                              </div>
+                          </div>
+
+                          
+
+                              
+                                  <div class="row">
+                                      <div class="col btn-container"> 
+                                      <center><button id="btnSend" type="button" class="btn btn-info">Send Message</button></center>
+                                  </div>
+                                  </div>
+                                  
+                   
+      </form>
+        
+        
+        <div class="row">
+            <div class="col">
+                    <div id="catalog" class="catalog-container">
+
+    <!-- inside here, generate the itmes -->
+
+
+            </div>
+            </div>
+        </div>
+        </div>
+
+    <!-- Scripts -->
+    
+    <script src="scripts/jquery-3.4.1.js"></script>
+    <script src="scripts/bootstrap.min.js"></script>
+    <script src="scripts/catalog.js"></script>
+    <script src="scripts/contact.js"></script>
+</body>
+
+</html>
